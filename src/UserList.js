@@ -29,7 +29,7 @@ export class Users extends Component {
       
         render() {  
             return (  
-                <>
+                
                 <div className="row">
                    
                         <table class="table table-hover">
@@ -73,7 +73,7 @@ export class Users extends Component {
                     </table>
                  
                 </div>
-                </>
+                
                 
             )
         }
