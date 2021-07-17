@@ -1,22 +1,14 @@
-import logo from './logo.svg';
+ 
 import './App.css';
+import UserList from './UserList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="text-center">
+      <header className="container">
+      <h1 className="text-center my-4">AFFICHAGE DES DONNEES D'API</h1>
+      <h5><a href="https://github.com/brahimezzdini/API-React-checkpoint.git">Source code on GITHUB</a> </h5><br/>
+      <UserList/>
       </header>
     </div>
   );
